@@ -13,12 +13,7 @@ namespace MobilePhone
         {
             SimcorpMobile mobile = new SimcorpMobile();
 
-            mobile.Battery.Model = "HH100";
-            mobile.Battery.Capacity = 3000;
-
-            mobile.Microphone.Name = "Toshiba";
-            
-            Console.WriteLine(mobile.ToString());
+            Console.WriteLine(mobile);
         }
     }
 }

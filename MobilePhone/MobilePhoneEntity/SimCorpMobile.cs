@@ -18,7 +18,7 @@ namespace MobilePhone.MobilePhoneEntity
         }
 
         public override Screen Screen { get { return vOLEDScreen; } }
-        private OLEDScreen vOLEDScreen = new OLEDScreen(100, 100);
+        private OLEDScreen vOLEDScreen = new OLEDScreen(100);
 
     }
 }

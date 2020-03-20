@@ -33,7 +33,7 @@ namespace MobilePhone.MicrophoneEntity
         }  
 
         public float Increment { get; private set; } = 5;
-        public string Name { get; set; }
+        public string Name { get; set; } = "Default Model1";
 
         public override string ToString()
         {

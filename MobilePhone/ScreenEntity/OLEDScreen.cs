@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace MobilePhone.ScreenEntity
 {
-    class OLEDScreen : ColoredScreen
+    class OLEDScreen : Screen
     {
-        public OLEDScreen(float diagonal, int numOfColors) : base(diagonal, numOfColors)
+        public OLEDScreen(float diagonal) : base(diagonal)
         {
 
         }
         public override void Show(IScreenImage screenImage)
         {
-            Console.WriteLine("Colourful image on OLED screen");
+            Console.WriteLine("Image on OLED screen");
         }
         public override string ToString()
         {

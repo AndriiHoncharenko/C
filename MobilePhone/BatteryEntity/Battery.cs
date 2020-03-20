@@ -24,6 +24,8 @@ namespace MobilePhone.BatteryEntity
 
         public Battery()
         {
+            this._model = "battery default model AA";
+            this._capacity = 20;
         }
 
         private int _capacity;
