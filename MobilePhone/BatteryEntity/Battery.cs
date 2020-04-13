@@ -14,7 +14,7 @@ namespace MobilePhone.BatteryEntity
             {
                 capacity += increment;
             }
-            catch (ArgumentNullException e) {
+            catch (ArgumentNullException) {
                 Console.WriteLine($"Wrong argument in {capacity.ToString()}");
             }
         }

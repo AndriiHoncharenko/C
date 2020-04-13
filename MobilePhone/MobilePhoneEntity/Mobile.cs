@@ -43,6 +43,17 @@ namespace MobilePhone.MobilePhoneEntity
 
             return descriptionBuilder.ToString();
         }
+        public void Play(object data)
+        {
+            PlayBackComponent.Play(data);
+        }
+
+        public void Charge()
+        {
+            ChargerDevice.Charge();
+        }
+        public IplayBack PlayBackComponent { get; set; }
+        public ICharge ChargerDevice { get; set; }
 
     }
 }
