@@ -22,7 +22,7 @@ namespace UnitTestMobilePhone.AudioTest
 
             mb.Play("data");
 
-            Assert.AreEqual(output.WrittenText, "IPhoneHeadset sound");
+            Assert.AreEqual(output.WrittenText, "IphoneHeadset playing ");
 
         }
             

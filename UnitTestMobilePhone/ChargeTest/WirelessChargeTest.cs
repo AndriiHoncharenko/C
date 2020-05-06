@@ -10,7 +10,7 @@ namespace UnitTestMobilePhone.ChargeTest
     public class WirelessChargeTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void WirelessChargeCharge()
         {
             var mb = new SimcorpMobile("test_mobile");
             var output = new MockResult();
@@ -20,7 +20,7 @@ namespace UnitTestMobilePhone.ChargeTest
             mb.Charge();
 
             //Assert
-            Assert.AreEqual(output.WrittenText, "Wireless charge");
+            Assert.AreEqual(output.WrittenText, "WirelessCharge charger");
         }
     }
 }

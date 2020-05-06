@@ -16,7 +16,7 @@ namespace MobilePhoneWinForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MobileWinForm());
+            Application.Run(new Form2());
         }
     }
 }

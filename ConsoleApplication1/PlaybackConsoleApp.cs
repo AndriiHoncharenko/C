@@ -35,6 +35,7 @@ namespace MobilePhone
             catch (Exception) {
                 Console.WriteLine("Wrong input");    
             }
+            
             return index;
         }
         static IplayBack GetPlaybackItem() {
@@ -56,6 +57,10 @@ namespace MobilePhone
             catch (IndexOutOfRangeException)
             {
                 Console.WriteLine("Wrong index");
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Cannot parse input");
             }
             return null;
         }
