@@ -17,11 +17,10 @@ namespace MobilePhone
     {
         
 
-        private static int getInput()
+        private static int getInput(int low_val, int high_val)
         {
             int index = 0;
-            int low_val = 1;
-            int high_val = 3;
+            
             
             try {
 
@@ -49,7 +48,7 @@ namespace MobilePhone
             {
                 Console.WriteLine($"{i + 1}-{Items[i]}");
             }
-            int index = getInput();
+            int index = getInput(1,3);
             try
             {
                 return Items[index - 1];
@@ -74,12 +73,12 @@ namespace MobilePhone
             {
                 Console.WriteLine($"{i + 1}-{Items[i]}");
             }
-            int index = getInput();
+            int index = getInput(1,2);
             try
             {
                 return Items[index - 1];
             }
-            catch (IndexOutOfRangeException)
+            catch (Exception)
             {
                 Console.WriteLine("Wrong index");
             }

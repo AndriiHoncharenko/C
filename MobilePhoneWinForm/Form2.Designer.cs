@@ -78,6 +78,7 @@
             // IphoneHeadset
             // 
             this.IphoneHeadset.AutoSize = true;
+            this.IphoneHeadset.Checked = true;
             this.IphoneHeadset.Location = new System.Drawing.Point(27, 42);
             this.IphoneHeadset.Name = "IphoneHeadset";
             this.IphoneHeadset.Size = new System.Drawing.Size(98, 17);
@@ -122,6 +123,7 @@
             // USBCharger
             // 
             this.USBCharger.AutoSize = true;
+            this.USBCharger.Checked = true;
             this.USBCharger.Location = new System.Drawing.Point(34, 42);
             this.USBCharger.Name = "USBCharger";
             this.USBCharger.Size = new System.Drawing.Size(84, 17);
@@ -157,6 +159,7 @@
             this.Controls.Add(this.textBox);
             this.Controls.Add(this.Charge);
             this.Controls.Add(this.Audio);
+            this.MaximizeBox = false;
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
